@@ -130,7 +130,7 @@ hr{
 }
 
 .horizontal-bar{
-    width: 79vw;
+    width: 1010px;
     height: 2px;
     background-color: yellowgreen;
     margin: 40px 20px;
@@ -161,11 +161,11 @@ hr{
 
 .desc{
     position: relative;
+    margin-top: 10px;
     top: 57px;
     width: 100px;
     font-size: 9px;
     color: gray;
-    margin-top: 10px;
 }
 
 footer{
@@ -214,12 +214,26 @@ footer :nth-child(1){
     }
     footer{
         width: 1250px;
-        margin-top: 60px;
+        margin-top: 70px;
     }
     .horizontal-bar{
         width: 1010px;
+        height: 2px;
+        background-color: yellowgreen;
+        margin: 40px 20px;
+        display: flex;
     }
     .desc{
         margin-top: 10px;
+        width: 130px;
     }
+    .secondSection h1{
+        width: 400px;
+    }
+    hr{
+        width: 1100px;
+        margin: auto;
+        margin-left: 40px;
+    }
+    
 }
