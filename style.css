@@ -214,4 +214,11 @@ footer :nth-child(1){
     footer{
         width: 1250px;
     }
+    .horizontal-bar{
+        width: 1010px;
+        height: 2px;
+        background-color: yellowgreen;
+        margin: 40px 20px;
+        display: flex;
+    }
 }
