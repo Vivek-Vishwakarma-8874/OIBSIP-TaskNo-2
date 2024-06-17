@@ -165,6 +165,7 @@ hr{
     width: 100px;
     font-size: 9px;
     color: gray;
+    margin-top : 10px;
 }
 
 footer{
@@ -213,12 +214,12 @@ footer :nth-child(1){
     }
     footer{
         width: 1250px;
+        margin-top : 25px;
     }
     .horizontal-bar{
         width: 1010px;
-        height: 2px;
-        background-color: yellowgreen;
-        margin: 40px 20px;
-        display: flex;
+    }
+    .desc{
+        margin-top: 10px;
     }
 }
